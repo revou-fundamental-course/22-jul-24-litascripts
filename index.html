@@ -3,10 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css\styles.css">
+    <title>Revou</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
+    <nav>
+        <header>
+            <div class="logo-icon"></div>
+        </header>
+        <section class="nav-container">
+            <a class="nav-item" href="#home">Home</a>
+            <a class="nav-item" href="#package">Our Package</a>
+            <a class="nav-item" href="#contact">Contact</a>
+        </section>
+    </nav>
+
+    <main>
+        <article id="home" class="main-title">
+            <header>
+                <h1>The Land of Fantasy</h1>
+            </header>
+            <p>We bring joy and happiness.</p>
+        </article>
+
+        <section class="content-container">
+            <article class="home-section">
+                <div class="main-content-banner" id="banner"></div>
+                <div class="main-item">
+                    <div class="item-icon"></div>                    
+                    <div>
+                        <p>"Liburan jadi menyenangkan bersama Homestay ini."</p>
+                        <h3>Niki Zefanya</h3>
+                        <p>Mahasiswa, 20</p>
+                    </div>
+                </div>
+            </article>
+            
+            <form class="contact-section" id="contactForm">
+                <h3>Contact Us</h3>
+                <p>Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="First and last name">
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com">
+
+                    <label for="interest">What are you interested in?</label>
+                    <select id="interest" name="interest">
+                        <option value="">Select Option</option>
+                        <option value="packages">Packages</option>
+                        <option value="custom">Custom Room</option>
+                    </select>
+
+                    <button type="submit">Submit</button>
+                </form>
+        </section>
+        
+        <section class="features">
+            <h3 class="text-center">Don't just visit, live it!</h3>
+            <ul>
+                <li>
+                    <div class="feature-number">1</div>
+                    <p>We offer not only competitive prices and excellent long-term accommodation deals but also genuine value for money through an authentic experience.</p>
+                </li>
+                <li>
+                    <div class="feature-number">2</div>
+                    <p>We will always offer rooms in real homes with local hosts.</p>
+                </li>
+                <li>
+                    <div class="feature-number">3</div>
+                    <p>We promote sustainable local tourism by ensuring you're spending stays within local communities, minimising your environmental impact.</p>
+                </li>
+            </ul>
+        </section>
+        
+        <section id="package" class="package">
+            <h3 class="style">Our Package</h3>
+            <div class="package-grid">
+                <div class="package-item">
+                    <div class="icon"></div>
+                    <h4>Bali</h4>
+                    <p>Homestay ini dilengkapi dengan berbagai fasilitas yang akan menunjang kenyamanan Anda selama menginap.</p>
+                </div>
+                <div class="package-item">
+                    <div class="icon"></div>
+                    <h4>Bandung</h4>
+                    <p>Homestay ini dilengkapi dengan berbagai fasilitas yang akan menunjang kenyamanan Anda selama menginap.</p>
+                </div>
+                <div class="package-item">
+                    <div class="icon"></div>
+                    <h4>Semarang</h4>
+                    <p>Homestay ini dilengkapi dengan berbagai fasilitas yang akan menunjang kenyamanan Anda selama menginap.</p>
+                </div>
+                <div class="package-item">
+                    <div class="icon"></div>
+                    <h4>Surabaya</h4>
+                    <p>Homestay ini dilengkapi dengan berbagai fasilitas yang akan menunjang kenyamanan Anda selama menginap.</p>
+                </div>
+                <div class="package-item">
+                    <div class="icon"></div>
+                    <h4>Solo</h4>
+                    <p>Homestay ini dilengkapi dengan berbagai fasilitas yang akan menunjang kenyamanan Anda selama menginap.</p>
+                </div>
+                <div class="package-item">
+                    <div class="icon"></div>
+                    <h4>Lombok</h4>
+                    <p>Homestay ini dilengkapi dengan berbagai fasilitas yang akan menunjang kenyamanan Anda selama menginap.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="closing-argument">
+            <h2>Butuh penginapan, homestay, atau guest house</h2>
+            <p>Temukan homestay dan guest house yang sesuai dengan kebutuhan anda mulai dari fasilitas dan jumlah kamar</p>
+            <button class="cta-button">CALL TO ACTION</button>
+        </section>
+    </main>
+    <script src="js\script.js"></script>
 </body>
 </html>
